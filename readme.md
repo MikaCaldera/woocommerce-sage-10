@@ -5,7 +5,7 @@ This package enables WooCommerce integration with Sage 9 themes and Blade templa
 ## Installation
 
 ```bash
-composer require "mikacaldera/gutenberg-category"
+composer require "mikacaldera/woocomm-sage10"
 ```
 
 Install the package **in your theme folder**:
