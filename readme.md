@@ -29,6 +29,8 @@ do_action('get_sidebar', 'shop');
 do_action('get_footer', 'shop');
 ```
 
+In theme app folder create `woocommerce.php` and add it to your sage theme files in function.php
+
 ## Useful Links
 Templates: [WooComm templates](https://docs.woocommerce.com/document/template-structure/)
 
