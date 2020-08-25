@@ -8,7 +8,7 @@ Install the package **in your theme folder**:
 
 ```bash
 cd wp-content/themes/your-sage-theme-folder
-composer require "mikacaldera/woocomm-sage10"
+composer require "mikacaldera/woocommerce-sage-10"
 ```
 
 Add package path to Sage view namespaces in config/view.php:
