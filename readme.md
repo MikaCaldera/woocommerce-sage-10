@@ -30,6 +30,6 @@ do_action('get_footer', 'shop');
 ```
 
 ## Useful Links
-[WooComm templates](https://docs.woocommerce.com/document/template-structure/)
+Templates: [WooComm templates](https://docs.woocommerce.com/document/template-structure/)
 
 Original: [Woocommerce for Sage 9](https://github.com/roots/sage-woocommerce)
