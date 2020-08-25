@@ -4,16 +4,18 @@ This package enables WooCommerce integration with Sage 10 themes and Blade templ
 
 ## Installation
 
-```bash
-composer require "mikacaldera/woocomm-sage10"
-```
-
 Install the package **in your theme folder**:
 
 ```bash
 cd wp-content/themes/your-sage-theme-folder
-composer require roots/sage-woocommerce
+composer require "mikacaldera/woocomm-sage10"
 ```
+
+Add package path to Sage view namespaces in config/view.php:
+
+    'namespaces' => [
+       'SageWoocommerce' => get_theme_file_path('/vendor/mikacaldera/sage-woocommerce/src/resources/views'),
+    ],
 
 ## Usage
 
@@ -26,3 +28,8 @@ do_action('get_header', 'shop');
 do_action('get_sidebar', 'shop');
 do_action('get_footer', 'shop');
 ```
+
+## Useful Links
+[WooComm templates](https://docs.woocommerce.com/document/template-structure/)
+
+Original: [Woocommerce for Sage 9](https://github.com/roots/sage-woocommerce)
