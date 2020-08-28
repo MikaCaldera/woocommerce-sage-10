@@ -14,7 +14,7 @@ composer require "mikacaldera/woocommerce-sage-10"
 Add package path to Sage view namespaces in config/view.php:
 
     'namespaces' => [
-       'SageWoocommerce' => get_theme_file_path('/vendor/mikacaldera/sage-woocommerce/src/resources/views'),
+       'SageWoocommerce' => get_theme_file_path('/vendor/mikacaldera/woocommerce-sage-10/src/resources/views'),
     ],
 
 ## Usage
